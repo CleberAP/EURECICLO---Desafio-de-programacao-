@@ -1,10 +1,10 @@
 # EURECICLO---Desafio-de-programacao-
-Desafio de programação elaborado pela EURECICLO
+<b>Desafio de programação elaborado pela EURECICLO</b>
 
-Desafio Inicial
+<b>Desafio Inicial</b>
 
 
-Desafio Arquitetura
+<b>Desafio Arquitetura</b>
 Desafio - arquivo: arquitetura.md
 Descreva como você projetaria um sistema online que atenda as histórias:
     • Quero poder enviar arquivos em formato .csv para o sistema, de modo que seja possível baixá-los depois.
