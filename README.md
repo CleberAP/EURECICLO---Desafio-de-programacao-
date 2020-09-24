@@ -20,9 +20,9 @@ O primeiro requisito aduz ao interesse de armazenar arquivo *.csv, caracterizand
 Uma página com link(botão) para usuário fazer upload de arquivo através do método POST. Neste deve ser possível escolher arquivo que será submetido ao servidor (upload).
 
 Para exibir a lista dos arquivos, é necessário uma página, ou espaço numa página, que exiba esta listagem, podendo ser visualizada em sua totalidade ou por vínculo de arquivos ao usuário conectado, ou seja, visualizar apenas arquivos submetidos por ele. 
-Esta visualização pode ocorrer em lista (tags: <ul> ou <ol>; dropdown; etc), ou tabelas (tag: <table>) que possibilita exibir mais informações sobre o arquivo em colunas. 
+Esta visualização pode ocorrer em lista (tags: ul ou ol; dropdown; etc), ou tabelas (tag: table) que possibilita exibir mais informações sobre o arquivo em colunas. 
 Tanto listas quanto tabelas podem ser escritas no HTML fazendo uso de CSS e Javascript, sendo mais viável o uso de plugins/frameworks como o Bootstrap que possui classes que, entre outras, possibilitam a implementação de filtros de busca em dropdowns, tables, div, etc.
-Para visualizar os dados dos arquivos, ao lado do nome, deve ser apresentado um link (botão) que carregue o arquivo e exiba seus dados em uma tabela (tag: <table>).
+Para visualizar os dados dos arquivos, ao lado do nome, deve ser apresentado um link (botão) que carregue o arquivo e exiba seus dados em uma tabela (tag: table).
 O carregamento ocorrerá por "leitura" do arquivo, sendo criado um conjunto de dados (dicionário) e exibido em tabela, através de algoritmo que identifique a estrutura de dados e crie as colunas e preencha os registros do mesmo modo que constam no arquivo original. Neste algoritmo pode ser implementada possibilidade de formatação de exibição dos dados como também alteração.
 A exportação pode ocorrer com implementação de "botão" que carregue o arquivo e faça a exportação, sendo que este botão pode estar tanto na exibição dos nomes dos arquivos quanto na tela de exibição dos dados.
 Basicamente, para exibição os dados é criado um conjunto de dados (objeto DataTable), no caso um dicionário, que poderá ser convertido/configurado para um arquivo CSV.
