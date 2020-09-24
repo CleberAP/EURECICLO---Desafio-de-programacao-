@@ -1,9 +1,21 @@
-# EURECICLO---Desafio-de-programacao-
+# EURECICLO Desafio de programação
 <b>Desafio de programação elaborado pela EURECICLO</b>
 
 <h1>Desafio Inicial</h1>
-
-
+<h3>Desafio: README.md</h3>
+<p>Dado um conjunto de garrafas d'água, com volumes de água diferentes entre si, e um galão de água. Crie um algoritmo, na linguagem que achar melhor, para escolher as garrafas a serem utilizadas para encher o galão, de acordo:</p>
+        <li><b>i.</b> O galão deve ser completamente preenchido com o volume das garrafas;</li>
+        <li><b>ii.</b> Procure esvaziar totalmente as garrafas escolhidas;</li>
+        <li><b>iii.</b> Quando não for possível esvaziar todas garrafas escolhidas, deixe a menor sobra possível;</li>
+        <li><b>iv.</b> utilize o menor número de garrafas possível;</li>
+<p><b>Resposta:</b></p>
+<p>Escrevi um algoritmo com base em algoritmo de enumeração Lexcográfico.</p>
+<p>Escrevi 2 arquivos para tratar a inserção de forma diferentes:</b>
+<ul>
+ <li><b>Algoritmo_Lista:</b> recebe valores e organiza em uma lista.</li>
+ <li><b>Algoritmo_Dict:</b> recebe valores e trata as informações em estrutura de dicionário. É útil caso queira identificar o recipiente (garrafa), como por exemplo, com código de registro. Para demonstrar o uso também desenvolvi um Protótipo em linguagem Python v.3.7 com a biblioteca Tkinter.</li>
+</ul>
+<br>
 <h1>Desafio Arquitetura</h1>
 
 <h3>Desafio - arquivo: arquitetura.md</h3>
