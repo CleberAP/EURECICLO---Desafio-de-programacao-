@@ -39,6 +39,10 @@
         <li>2 botões de limpeza para as respectivas listas.</li>
 </ul>
 <p>Como eu mencionei é um protótipo, então faltam muitos tratamentos para uma aplicação completa.</p>
+<p>Também desponibilizei 2 arquivos criados com o protótipo, contendo alguns registros fictícios que podem ser utilizados, como teste.</p>
+<p>Experimente importá-los!</p>
+<br>
+<p>Ou crie outros!</p>
 <br>
 <p>Espero que o aplicativo (<b>Protótipo</b>) seja útil no aprendizado ou aplicação em algum projeto.
 <br>
