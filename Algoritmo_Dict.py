@@ -148,11 +148,11 @@ def main(args):
     print("Garrafas registradas")
     for i in range(0,len(lista)):
         print(lista[i])
-    print()
-    print("Garrafas registradas")
-    for registro in lista:
-        for key,value in registro.items():
-            print(key,' - ', value)
+    #print()
+    #print("Garrafas registradas")
+    #for registro in lista:
+    #    for key,value in registro.items():
+    #        print(key,' - ', value)
         
 
     procurar = Algoritmo(lista, volume_maximo)
