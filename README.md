@@ -4,10 +4,12 @@
 <h1>Desafio Inicial</h1>
 <h3>Desafio: README.md</h3>
 <p>Dado um conjunto de garrafas d'água, com volumes de água diferentes entre si, e um galão de água. Crie um algoritmo, na linguagem que achar melhor, para escolher as garrafas a serem utilizadas para encher o galão, de acordo:</p>
+<ul>
         <li><b>i.</b> O galão deve ser completamente preenchido com o volume das garrafas;</li>
         <li><b>ii.</b> Procure esvaziar totalmente as garrafas escolhidas;</li>
         <li><b>iii.</b> Quando não for possível esvaziar todas garrafas escolhidas, deixe a menor sobra possível;</li>
         <li><b>iv.</b> utilize o menor número de garrafas possível;</li>
+</ul>
 <p><b>Resposta:</b></p>
 <p>Escrevi um algoritmo com base em algoritmo de enumeração Lexcográfico.</p>
 <p>Escrevi 2 arquivos para tratar a inserção de forma diferentes:</b>
@@ -15,7 +17,32 @@
  <li><b>Algoritmo_Lista:</b> recebe valores e organiza em uma lista.</li>
  <li><b>Algoritmo_Dict:</b> recebe valores e trata as informações em estrutura de dicionário. É útil caso queira identificar o recipiente (garrafa), como por exemplo, com código de registro. Para demonstrar o uso também desenvolvi um Protótipo em linguagem Python v.3.7 com a biblioteca Tkinter.</li>
 </ul>
+<h5>Sobre o Protótipo</h5>
+<p>A aplicação está disponível para rodar através do arquivo "aplicativo.py" (implementei de forma simples num único arquivo, mas pode ser melhorado) e do algoritmo do tipo dict (conforme arquivo "Algorithm_Dict.py") que contem as instruções para tratar os 2 tipos de análises disponibilizados.</p>
+<p>Este protótipo foi criado com orientação a objetos, então cada item listado é um objeto (instância) da classe container, arquivo container.py, também disponibilizado.</p>
+<ul>
+        <li>No menu FILE tem opções para exportar ou importar arquivos *.csv e inserir nas respectivas listas de recipiente principal e de despejo.</li>
+        <li>2 frames para registro e exibição:
+                <ol>
+                        <li>Para registrar Galões, ou outro tipo de recipiente principal onde se deseja despejar e armazenar conteúdo.</li>
+                        <li>Para registrar os recipientes que possuem o conteúdo a ser despejado no recipiente principal.</li>
+                </ol>
+        </li>
+        <li>Cada frame tem um botão para adicionar registros nas respectivas listas.</li>
+        <li>No canto direito da área de exibição tem 2 botões para dois tipos de análises. :
+                <ol>
+                        <li><b>Analisar Possibilidades:</b> utiliza toda lista de Recipientes de Despejo e utiliza o algoritmo criado. No final exibe a resposta, melhor opção. <i>Esta é a opção que atende ao desafio proposto pela EURECICLO.</i></li>
+                        <li><b>Analisar Selecionados:</b> analisa Recipientes de Despejo selecionados.</li>
+                </ol>
+                <p>*Para utilizá-los, basta selecionar um Recipiente Principal e os Recipientes de Despejo que se deseja analisar.</p>
+        </li>
+        <li>2 botões de limpeza para as respectivas listas.</li>
+</ul>
+<p>Como eu mencionei é um protótipo, então faltam muitos tratamentos para uma aplicação completa.</p>
 <br>
+<p>Espero que o aplicativo (<b>Protótipo</b>) seja útil no aprendizado ou aplicação em algum projeto.
+<br>
+<hr>
 <h1>Desafio Arquitetura</h1>
 
 <h3>Desafio - arquivo: arquitetura.md</h3>
